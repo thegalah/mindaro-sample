@@ -15,3 +15,5 @@ services:
         build: ./service-b
         environment:
             - APPINSIGHTS_INSTRUMENTATIONKEY
+        expose:
+            - 80
