@@ -4,8 +4,6 @@ services:
         build: ./service-a
         environment:
             - APPINSIGHTS_INSTRUMENTATIONKEY
-        labels:
-            com.microsoft.azure.public.port: "80"
         ports:
             - "8080:80"
         links:
